@@ -1,0 +1,2 @@
+cool: main.cpp getChar.cpp getChar.hpp prototypes.hpp Cell.cpp Cell.hpp Screen.cpp Screen.hpp
+	g++ -ggdb -o cool.x main.cpp getChar.cpp getChar.hpp prototypes.hpp Cell.cpp Cell.hpp Screen.cpp Screen.hpp -lcurses -ltermcap
